@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="222px" height="158px" viewBox="0 0 222 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 6</title>
+    <g id="多分屏" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通过分屏菜单触发分屏" transform="translate(-862, -226)">
+            <g id="编组-6" transform="translate(862, 226)">
+                <rect id="menu_bg" fill-opacity="0.8" fill="#EEEEEE" x="0" y="0" width="222" height="158"></rect>
+                <rect id="矩形" stroke-opacity="0.1" stroke="#000000" x="10.5" y="10.5" width="95" height="63" rx="8"></rect>
+                <rect id="矩形" stroke-opacity="0.1" stroke="#000000" x="116.5" y="10.5" width="95" height="63" rx="8"></rect>
+                <rect id="矩形" stroke-opacity="0.1" stroke="#000000" x="116.5" y="84.5" width="95" height="63" rx="8"></rect>
+                <rect id="矩形" stroke-opacity="0.1" stroke="#000000" transform="translate(58, 116) scale(-1, 1) translate(-58, -116)" x="10.5" y="84.5" width="95" height="63" rx="8"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

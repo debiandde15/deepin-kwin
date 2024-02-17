@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Id": "org.deepin.kwin.aurorae",
+        "ServiceTypes": [
+            "org.kde.kdecoration2"
+        ]
+    }, 
+    "Type": "Service", 
+    "X-KDE-Library": "deepin-kwin5_aurorae",
+    "X-KDE-PluginInfo-EnabledByDefault": true, 
+    "X-KDE-PluginInfo-Name": "org.deepin.kwin.aurorae",
+    "X-KDE-ServiceTypes": [
+        "org.kde.kdecoration2"
+    ], 
+    "org.kde.kdecoration2": {
+        "KNewStuff": "deepin-aurorae.knsrc",
+        "blur": true, 
+        "defaultTheme": "kwin4_decoration_qml_plastik", 
+        "themeListKeyword": "themes", 
+        "themes": true
+    }
+}

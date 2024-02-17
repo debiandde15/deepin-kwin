@@ -1,0 +1,7 @@
+File=kwinscreenedgescriptsettings.kcfg
+NameSpace=KWin
+ClassName=KWinScreenEdgeScriptSettings
+IncludeFiles=deepin_kwinglobals.h
+Mutators=true
+DefaultValueGetters=true
+ParentInConstructor=true
