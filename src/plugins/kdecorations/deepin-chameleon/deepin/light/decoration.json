@@ -17,7 +17,7 @@
       },
       "button-group": {
         "menu": {
-          "pos": "12,3",
+          "pos": "4,4",
           "icon": {
             "normal": ":/deepin/themes/deepin/light/icons/menu_normal.svg",
             "hover": ":/deepin/themes/deepin/light/icons/menu_hover.svg",
@@ -208,7 +208,7 @@
       "width": 1,
       "color": "#1a000000"
     },
-    "rounded-corner-radius": "18,18",
+    "rounded-corner-radius": "0,0",
     "blur": 10,
     "opcaity": 0,
     "shadow": {

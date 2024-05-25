@@ -70,6 +70,10 @@ add_definitions(-DMESA_EGL_NO_X11_HEADERS)
 add_definitions(-DEGL_NO_X11)
 add_definitions(-DEGL_NO_PLATFORM_SPECIFIC_TYPES)
 
+add_compile_definitions(
+    KDE_INSTALL_CONFDIR=\"${KDE_INSTALL_CONFDIR}\"
+)
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -425,6 +429,9 @@ add_feature_info("SCHED_RESET_ON_FORK"
 
 pkg_check_modules(PipeWire IMPORTED_TARGET libpipewire-0.3>=0.3.29)
 add_feature_info(PipeWire PipeWire_FOUND "Required for Wayland screencasting")
+
+pkg_check_modules(Systemd REQUIRED IMPORTED_TARGET libsystemd)
+add_feature_info(Systemd Systemd_FOUND "Required for deepin-kwin_x11 systemd notify startup")
 
 ########### global ###############
 
