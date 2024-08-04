@@ -38,7 +38,7 @@
             "press": ":/deepin/themes/deepin/dark/icons/minimize_press.svg",
             "disabled": ":/deepin/themes/deepin/dark/icons/minimize_disabled.svg"
           },
-          "width": 30,
+          "width": 40,
           "height": 30,
           "border": {
             "width": 1,
@@ -52,7 +52,7 @@
             "press": ":/deepin/themes/deepin/dark/icons/maximize_press.svg",
             "disabled": ":/deepin/themes/deepin/dark/icons/maximize_disabled.svg"
           },
-          "width": 30,
+          "width": 40,
           "height": 30,
           "border": {
             "width": 1,
@@ -66,7 +66,7 @@
             "press": ":/deepin/themes/deepin/dark/icons/unmaximize_press.svg",
             "disabled": ":/deepin/themes/deepin/dark/icons/unmaximize_disabled.svg"
           },
-          "width": 30,
+          "width": 40,
           "height": 30,
           "border": {
             "width": 1,
@@ -80,7 +80,7 @@
             "press": ":/deepin/themes/deepin/dark/icons/close_press.svg",
             "disabled": ":/deepin/themes/deepin/dark/icons/close_disabled.svg"
           },
-          "width": 30,
+          "width": 40,
           "height": 30,
           "border": {
             "width": 1,
@@ -138,7 +138,7 @@
             "press": ":/deepin/themes/deepin/dark/icons/minimize_press.svg",
             "disabled": ":/deepin/themes/deepin/dark/icons/minimize_disabled.svg"
           },
-          "width": 30,
+          "width": 40,
           "height": 30,
           "border": {
             "width": 1,
@@ -152,7 +152,7 @@
             "press": ":/deepin/themes/deepin/dark/icons/maximize_press.svg",
             "disabled": ":/deepin/themes/deepin/dark/icons/maximize_disabled.svg"
           },
-          "width": 30,
+          "width": 40,
           "height": 30,
           "border": {
             "width": 1,
@@ -166,7 +166,7 @@
             "press": ":/deepin/themes/deepin/dark/icons/unmaximize_press.svg",
             "disabled": ":/deepin/themes/deepin/dark/icons/unmaximize_disabled.svg"
           },
-          "width": 30,
+          "width": 40,
           "height": 30,
           "border": {
             "width": 1,
@@ -180,7 +180,7 @@
             "press": ":/deepin/themes/deepin/dark/icons/close_press.svg",
             "disabled": ":/deepin/themes/deepin/dark/icons/close_disabled.svg"
           },
-          "width": 30,
+          "width": 40,
           "height": 30,
           "border": {
             "width": 1,

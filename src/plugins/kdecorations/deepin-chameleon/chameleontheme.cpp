@@ -371,7 +371,9 @@ static bool loadTheme(ChameleonTheme::ConfigGroupMap *configs, const ChameleonTh
     if (theme_dir.path() == "/")
         return false;
 
-    const QString themeJsonPath = theme_dir.filePath(ChameleonTheme::typeString(themeType) + "/decoration.json");
+    // 用户自定义配置文件需存放于 ~/.local/share/deepin/themes/deepin/ChameleonTheme::typeString(themeType)/decoration.json
+    QString themeJsonPath = theme_dir.filePath(ChameleonTheme::typeString(themeType) + "/decoration.json");
+
     QFile f(themeJsonPath);
     if (!f.open(QIODevice::ReadOnly)) {
         qCCritical(CHAMELEON) << "Could not open file: " << themeJsonPath;
