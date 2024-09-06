@@ -498,7 +498,9 @@ check_cxx_compiler_flag(-Wno-unused-parameter COMPILER_UNUSED_PARAMETER_SUPPORTE
 if (COMPILER_UNUSED_PARAMETER_SUPPORTED)
     add_compile_options(-Wno-unused-parameter)
 endif()
-
+add_definitions(
+    -DQT_X11_DEFINES_FOUND
+)
 add_definitions(
     -DQT_DISABLE_DEPRECATED_BEFORE=0
     -DQT_NO_KEYWORDS

@@ -22,7 +22,9 @@ add_subdirectory(tabbox)
 add_subdirectory(scripting)
 add_subdirectory(helpers)
 add_subdirectory(qml)
-
+add_definitions(
+    -DQT_X11_DEFINES_FOUND
+)
 add_subdirectory(libkwineffects)
 if (KWIN_BUILD_KCMS)
     add_subdirectory(kcms)
