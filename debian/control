@@ -202,8 +202,8 @@ Breaks: plasma-workspace-wayland (<< 4:5.14),
 Package: deepin-kwin-x11
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends},
-Breaks: deepin-kwin-addons (<< 4:5.14),
-Provides: deepin-kwin, x-window-manager,
+Breaks: deepin-kwin-addons (<< 4:5.14), dde-kwin,
+Provides: deepin-kwin, x-window-manager, dde-kwin,
 Description: KDE window manager, X11 version
  KWin (pronounced as one syllable "deepin-kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
