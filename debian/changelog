@@ -1,9 +1,9 @@
-deepin-kwin (4:5.25.27-kwin.5.24.4) UNRELEASED; urgency=medium
+deepin-kwin (4:5.27.2.209gxde211-fix5.25.4) UNRELEASED; urgency=medium
 
   * Non-maintainer upload.
   * 
 
- -- gfdgd_xi <3025613752@qq.com>  Sun, 04 Aug 2024 19:21:12 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Sat, 07 Sep 2024 16:58:08 +0800
 
 deepin-kwin (4:5.25.27-kwin.5.24.3) unstable; urgency=medium
 
