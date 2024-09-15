@@ -6,10 +6,10 @@
     <kcfgfile arg="true"/>
     <group name="Effect-Blur">
         <entry name="BlurStrength" type="Int">
-            <default>15</default>
+            <default>4</default>
         </entry>
         <entry name="NoiseStrength" type="Int">
-            <default>5</default>
+            <default>4</default>
         </entry>
     </group>
 </kcfg>

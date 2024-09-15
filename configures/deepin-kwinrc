@@ -2,7 +2,7 @@
 blurEnabled=true
 scissorEnabled=true
 enforcedecoEnabled=false
-minimizeallEnabled=true
+minimizeallEnabled=false
 kwin4_effect_dialogparentEnabled=false
 kwin4_effect_translucencyEnabled=false
 kwin4_effect_windowapertureEnabled=false
