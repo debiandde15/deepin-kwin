@@ -1,6 +1,6 @@
-deepin-kwin (4:5.25.27-kwin.5.24.6) UNRELEASED; urgency=medium
+deepin-kwin (4:5.25.27.1-kwin.5.24.6) UNRELEASED; urgency=medium
 
-  * Non-maintainer upload.
+  * update: add decoration configfiles
 
  -- gfdgd_xi <3025613752@qq.com>  Mon, 16 Sep 2024 10:27:05 +0800
 
