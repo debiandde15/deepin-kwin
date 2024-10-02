@@ -58,5 +58,7 @@
         <file>deepin/light/icons/four_split_normal.svg</file>
         <file>deepin/light/icons/four_split_hover.svg</file>
         <file>deepin/light/icons/four_split_frame.svg</file>
+        <file>deepin/dark/decoration.json</file>
+        <file>deepin/light/decoration.json</file>
     </qresource>
 </RCC>
