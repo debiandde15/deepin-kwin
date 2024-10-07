@@ -23,7 +23,7 @@
 #define DBUS_APPEARANCE_OBJ "/org/deepin/dde/Appearance1"
 #define DBUS_APPEARANCE_INTF "org.deepin.dde.Appearance1"
 
-Q_GLOBAL_STATIC_WITH_ARGS(QGSettings, _gsettings_deepin_xsetting, ("com.deepin.xsettings"))
+//Q_GLOBAL_STATIC_WITH_ARGS(QGSettings, _gsettings_deepin_xsetting, ("com.deepin.xsettings"))
 #define GsettingsDtkRadius     "dtk-window-radius"
 
 namespace KWin
@@ -132,13 +132,13 @@ void WindowStyleManager::onWaylandWindowStartUpEffect(uint32_t type)
 
 float WindowStyleManager::getOsRadius()
 {
-    if (m_osRadius <= 0.0) {
+    /*if (m_osRadius <= 0.0) {
         if (m_radiusConfig.get()->getProperty().isValid()) {
             m_osRadius = m_radiusConfig.get()->getProperty().toFloat();
         } else {
             m_osRadius = _gsettings_deepin_xsetting->get(GsettingsDtkRadius).toInt();
         }
-    }
+    }*/
 
     return m_osRadius <= 0.0 ? 0.0 : m_osRadius;
 }

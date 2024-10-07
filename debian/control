@@ -97,7 +97,7 @@ Build-Depends: breeze-dev (>= 4:5.14.5-1),
                libxcb-util0-dev,
                libxtst-dev,
                libqt5svg5-dev,
-               libsystemd-dev (>= 255.2),
+               libsystemd-dev,
 Standards-Version: 4.6.2
 Homepage: https://projects.kde.org/projects/kde/workspace/deepin-kwin
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/deepin-kwin
@@ -137,8 +137,10 @@ Recommends: qml-module-qtmultimedia,
             qml-module-qtquick-virtualkeyboard,
             qml-module-qtquick-window2,
             qml-module-qtquick2,
-Replaces: dde-deepin-kwin (<< 5.8.4-1)
+Replaces: dde-deepin-kwin (<< 5.8.4-1), kwin-data
 Breaks: dde-deepin-kwin (<< 5.8.4-1)
+Conflicts: kwin-data
+Provides: kwin-data
 Description: KDE window manager data files
  KWin (pronounced as one syllable "deepin-kwin") is the window
  manager for the KDE Plasma Desktop. It gives you complete
