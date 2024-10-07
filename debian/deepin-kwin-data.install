@@ -19,3 +19,5 @@ usr/share/locale/
 usr/share/qlogging-categories5/
 usr/share/dsg/configs/
 usr/share/deepin-log-viewer/deepin-log.conf.d/
+
+deepin-gtk-bar/* /usr/share/deepin/
