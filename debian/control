@@ -130,7 +130,7 @@ Description: KDE window manager, common files
 Package: deepin-kwin-data
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${python3:Depends}, plasma-framework,
+Depends: ${misc:Depends}, ${python3:Depends}, plasma-framework, dde-dconfig-daemon
 Recommends: qml-module-qtmultimedia,
             qml-module-qtquick-controls,
             qml-module-qtquick-layouts,

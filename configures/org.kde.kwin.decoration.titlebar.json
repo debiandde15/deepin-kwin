@@ -14,7 +14,7 @@
             "visibility": "public"
         },
         "defaultTitlebarHeight": {
-            "value": 40,
+            "value": 35,
             "serial": 0,
             "flags": [],
             "name": "Default_Window_TitleBar_Height",
