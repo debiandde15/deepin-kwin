@@ -1,6 +1,7 @@
-deepin-kwin (4:5.25.27.1-kwin.5.24.8) UNRELEASED; urgency=medium
+deepin-kwin (4:5.25.27.2-kwin.5.24.8) UNRELEASED; urgency=medium
 
   * update: add decoration configfiles
+  * update: Support Loong64
 
  -- gfdgd_xi <3025613752@qq.com>  Sun, 13 Oct 2024 16:14:31 +0800
 
